@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
+using System.Configuration;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,7 +19,8 @@ namespace DXQLMT.BackEnd
             get => instance ?? (instance = new DataProvide()); 
             private set => instance = value; 
         }
-        private string stringconnection = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Admin\\source\\repos\\DXQLMT\\DXQLMT\\DataProvide.mdf;Integrated Security=True";
+        private string stringconnection = ConfigurationManager.ConnectionStrings["myConnectionString"].ConnectionString;
+        //"Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Admin\\source\\repos\\DXQLMT\\DXQLMT\\DataProvide.mdf;Integrated Security=True";
         public void ExecuteNonQuery(string query, object[] parameter = null)
         {
             SqlConnection connection = new SqlConnection(stringconnection);

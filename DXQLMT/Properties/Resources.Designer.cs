@@ -73,16 +73,6 @@ namespace DXQLMT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
-        internal static System.Drawing.Bitmap analysis_analytics_magnifier_search_locate_magnifyng_glass_icon_153884 {
-            get {
-                object obj = ResourceManager.GetObject("analysis_analytics_magnifier_search_locate_magnifyng_glass_icon_153884", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Looks up a localized resource of type System.Drawing.Bitmap.
-        /// </summary>
         internal static System.Drawing.Bitmap bgr {
             get {
                 object obj = ResourceManager.GetObject("bgr", resourceCulture);

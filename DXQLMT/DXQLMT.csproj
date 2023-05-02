@@ -60,6 +60,7 @@
     <Reference Include="DevExpress.XtraLayout.v22.2, Version=22.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="DevExpress.XtraPrinting.v22.2, Version=22.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -127,9 +128,6 @@
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\analysis_analytics_magnifier_search_locate_magnifyng_glass_icon_153884.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\5039684.jpg" />
   </ItemGroup>
   <ItemGroup>
@@ -170,10 +168,10 @@
     </BootstrapperPackage>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="DataProvide.mdf">
+    <Content Include="App_Data\DataProvide.mdf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <Content Include="DataProvide_log.ldf">
+    <Content Include="App_Data\DataProvide_log.ldf">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
       <DependentUpon>DataProvide.mdf</DependentUpon>
     </Content>

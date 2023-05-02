@@ -71,9 +71,9 @@
             this.Frm_main.Controls.Add(this.gridControl_centrer);
             this.Frm_main.Controls.Add(this.panelControl1);
             this.Frm_main.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.Frm_main.Location = new System.Drawing.Point(58, 31);
+            this.Frm_main.Location = new System.Drawing.Point(250, 31);
             this.Frm_main.Name = "Frm_main";
-            this.Frm_main.Size = new System.Drawing.Size(1025, 554);
+            this.Frm_main.Size = new System.Drawing.Size(833, 554);
             this.Frm_main.TabIndex = 0;
             // 
             // gridControl_centrer
@@ -82,7 +82,7 @@
             this.gridControl_centrer.Location = new System.Drawing.Point(0, 116);
             this.gridControl_centrer.MainView = this.gridView1;
             this.gridControl_centrer.Name = "gridControl_centrer";
-            this.gridControl_centrer.Size = new System.Drawing.Size(1025, 438);
+            this.gridControl_centrer.Size = new System.Drawing.Size(833, 438);
             this.gridControl_centrer.TabIndex = 1;
             this.gridControl_centrer.ViewCollection.AddRange(new DevExpress.XtraGrid.Views.Base.BaseView[] {
             this.gridView1});
@@ -146,9 +146,8 @@
             this.accordionControlElement1});
             this.ACD_Main.Location = new System.Drawing.Point(0, 31);
             this.ACD_Main.Name = "ACD_Main";
-            this.ACD_Main.OptionsMinimizing.State = DevExpress.XtraBars.Navigation.AccordionControlState.Minimized;
             this.ACD_Main.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
-            this.ACD_Main.Size = new System.Drawing.Size(58, 554);
+            this.ACD_Main.Size = new System.Drawing.Size(250, 554);
             this.ACD_Main.TabIndex = 1;
             this.ACD_Main.ViewType = DevExpress.XtraBars.Navigation.AccordionControlViewType.HamburgerMenu;
             // 
@@ -233,6 +232,7 @@
             this.menu_update_bill,
             this.menu_view_bill,
             this.menu_Thongke});
+            this.menu_Bill.Expanded = true;
             this.menu_Bill.ImageOptions.Image = global::DXQLMT.Properties.Resources.Icons8_Windows_8_Ecommerce_Bill_24;
             this.menu_Bill.Name = "menu_Bill";
             this.menu_Bill.Text = "Bill";
@@ -267,13 +267,14 @@
             // 
             // menu_Logout
             // 
-            this.menu_Logout.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("menu_Logout.ImageOptions.SvgImage")));
+            this.menu_Logout.ImageOptions.Image = global::DXQLMT.Properties.Resources.Icons8_Windows_8_Users_Exit_16;
             this.menu_Logout.Name = "menu_Logout";
             this.menu_Logout.Text = "Log Out";
             this.menu_Logout.Click += new System.EventHandler(this.menu_Logout_Click);
             // 
             // accordionControlElement1
             // 
+            this.accordionControlElement1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("accordionControlElement1.ImageOptions.Image")));
             this.accordionControlElement1.Name = "accordionControlElement1";
             this.accordionControlElement1.Text = "Accounts";
             // 

@@ -154,9 +154,7 @@
   <data name="5039684" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\5039684.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="analysis_analytics_magnifier_search_locate_magnifyng_glass_icon_153884" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\analysis_analytics_magnifier_search_locate_magnifyng_glass_icon_153884.ico;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
+ 
   <data name="Gianni-Polito-Colobrush-Loupe.24" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Gianni-Polito-Colobrush-Loupe.24.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>

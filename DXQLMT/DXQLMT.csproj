@@ -109,6 +109,24 @@
     <Compile Include="FrontEnd\Form Account\Add_Account.Designer.cs">
       <DependentUpon>Add_Account.cs</DependentUpon>
     </Compile>
+    <Compile Include="FrontEnd\Form Bill\TaoHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Form Bill\TaoHoaDon.Designer.cs">
+      <DependentUpon>TaoHoaDon.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\Form Bill\ThongKeTaiChinh.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Form Bill\ThongKeTaiChinh.Designer.cs">
+      <DependentUpon>ThongKeTaiChinh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FrontEnd\Form Bill\XemThongTinHoaDon.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrontEnd\Form Bill\XemThongTinHoaDon.Designer.cs">
+      <DependentUpon>XemThongTinHoaDon.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrontEnd\FormCentrer.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -131,6 +149,15 @@
     </EmbeddedResource>
     <EmbeddedResource Include="FrontEnd\Form Account\Faccount.resx">
       <DependentUpon>Faccount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Form Bill\TaoHoaDon.resx">
+      <DependentUpon>TaoHoaDon.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Form Bill\ThongKeTaiChinh.resx">
+      <DependentUpon>ThongKeTaiChinh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FrontEnd\Form Bill\XemThongTinHoaDon.resx">
+      <DependentUpon>XemThongTinHoaDon.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FrontEnd\FormCentrer.resx">
       <DependentUpon>FormCentrer.cs</DependentUpon>

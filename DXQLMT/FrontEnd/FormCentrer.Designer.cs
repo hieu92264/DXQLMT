@@ -52,8 +52,8 @@
             this.menu_update_bill = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.menu_view_bill = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.menu_Thongke = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.menu_Logout = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement1 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
+            this.menu_logout = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.fluentDesignFormControl1 = new DevExpress.XtraBars.FluentDesignSystem.FluentDesignFormControl();
             this.Frm_main.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gridControl_centrer)).BeginInit();
@@ -142,8 +142,8 @@
             this.Menu_home,
             this.Menu_products,
             this.menu_Bill,
-            this.menu_Logout,
-            this.accordionControlElement1});
+            this.accordionControlElement1,
+            this.menu_logout});
             this.ACD_Main.Location = new System.Drawing.Point(0, 31);
             this.ACD_Main.Name = "ACD_Main";
             this.ACD_Main.ScrollBarMode = DevExpress.XtraBars.Navigation.ScrollBarMode.Touch;
@@ -164,7 +164,6 @@
             this.Menu_products_dell,
             this.menu_products_acer,
             this.menu_update_products});
-            this.Menu_products.Expanded = true;
             this.Menu_products.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("Menu_products.ImageOptions.SvgImage")));
             this.Menu_products.Name = "Menu_products";
             this.Menu_products.Text = "Products";
@@ -232,7 +231,6 @@
             this.menu_update_bill,
             this.menu_view_bill,
             this.menu_Thongke});
-            this.menu_Bill.Expanded = true;
             this.menu_Bill.ImageOptions.Image = global::DXQLMT.Properties.Resources.Icons8_Windows_8_Ecommerce_Bill_24;
             this.menu_Bill.Name = "menu_Bill";
             this.menu_Bill.Text = "Bill";
@@ -265,18 +263,19 @@
             this.menu_Thongke.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.menu_Thongke.Text = "Thống kê tài chính";
             // 
-            // menu_Logout
-            // 
-            this.menu_Logout.ImageOptions.Image = global::DXQLMT.Properties.Resources.Icons8_Windows_8_Users_Exit_16;
-            this.menu_Logout.Name = "menu_Logout";
-            this.menu_Logout.Text = "Log Out";
-            this.menu_Logout.Click += new System.EventHandler(this.menu_Logout_Click);
-            // 
             // accordionControlElement1
             // 
             this.accordionControlElement1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("accordionControlElement1.ImageOptions.Image")));
             this.accordionControlElement1.Name = "accordionControlElement1";
             this.accordionControlElement1.Text = "Accounts";
+            this.accordionControlElement1.Click += new System.EventHandler(this.accordionControlElement1_Click);
+            // 
+            // menu_logout
+            // 
+            this.menu_logout.ImageOptions.Image = global::DXQLMT.Properties.Resources.Icons8_Windows_8_User_Interface_Logout_32;
+            this.menu_logout.Name = "menu_logout";
+            this.menu_logout.Text = "Log Out";
+            this.menu_logout.Click += new System.EventHandler(this.menu_logout_Click);
             // 
             // fluentDesignFormControl1
             // 
@@ -340,12 +339,12 @@
         private DevExpress.XtraBars.Navigation.AccordionControlElement menu_update_bill;
         private DevExpress.XtraBars.Navigation.AccordionControlElement menu_view_bill;
         private DevExpress.XtraBars.Navigation.AccordionControlElement menu_Thongke;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement menu_Logout;
         private DevExpress.XtraBars.Navigation.AccordionControlElement Item_Latidue;
         private DevExpress.XtraBars.Navigation.AccordionControlElement Item_Vostro;
         private DevExpress.XtraBars.Navigation.AccordionControlElement Item_inspiron;
         private DevExpress.XtraBars.Navigation.AccordionControlElement Item_Nitro;
         private DevExpress.XtraBars.Navigation.AccordionControlElement accordionControlElement1;
+        private DevExpress.XtraBars.Navigation.AccordionControlElement menu_logout;
     }
 }
 

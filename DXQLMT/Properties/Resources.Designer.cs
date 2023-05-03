@@ -173,6 +173,16 @@ namespace DXQLMT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Icons8_Ios7_Users_Change_User_32 {
+            get {
+                object obj = ResourceManager.GetObject("Icons8-Ios7-Users-Change-User.32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Icons8_Windows_8_Ecommerce_Bill_24 {
             get {
                 object obj = ResourceManager.GetObject("Icons8-Windows-8-Ecommerce-Bill.24", resourceCulture);
@@ -196,6 +206,36 @@ namespace DXQLMT.Properties {
         internal static System.Drawing.Bitmap Icons8_Windows_8_Ecommerce_Bill_48 {
             get {
                 object obj = ResourceManager.GetObject("Icons8-Windows-8-Ecommerce-Bill.48", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icons8_Windows_8_Security_Password_1_32 {
+            get {
+                object obj = ResourceManager.GetObject("Icons8-Windows-8-Security-Password-1.32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icons8_Windows_8_User_Interface_Logout_32 {
+            get {
+                object obj = ResourceManager.GetObject("Icons8-Windows-8-User-Interface-Logout.32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Icons8_Windows_8_User_Interface_Logout_48 {
+            get {
+                object obj = ResourceManager.GetObject("Icons8-Windows-8-User-Interface-Logout.48", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -266,6 +306,16 @@ namespace DXQLMT.Properties {
         internal static System.Drawing.Bitmap Oxygen_Icons_org_Oxygen_Apps_system_software_update_24 {
             get {
                 object obj = ResourceManager.GetObject("Oxygen-Icons.org-Oxygen-Apps-system-software-update.24", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Pictogrammers_Material_Account_box_32 {
+            get {
+                object obj = ResourceManager.GetObject("Pictogrammers-Material-Account-box.32", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

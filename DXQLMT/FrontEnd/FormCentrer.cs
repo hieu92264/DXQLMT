@@ -4,6 +4,7 @@ using DevExpress.XtraEditors.Controls;
 using DevExpress.XtraEditors.Repository;
 using DXQLMT.BackEnd;
 using DXQLMT.FrontEnd;
+using DXQLMT.FrontEnd.Form_Account;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -61,18 +62,6 @@ namespace DXQLMT
             txt_search.Clear();
         }
 
-        private void menu_Logout_Click(object sender, EventArgs e)
-        {
-            DialogResult kq = MessageBox.Show("Bạn có muốn đăng xuất?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
-            if (kq == DialogResult.Yes)
-            {
-                isClose = false;
-                FLogin frm = new FLogin();
-                this.Close();
-                frm.ShowDialog();
-            }
-        }
-
         private void FormCentrer_FormClosing(object sender, FormClosingEventArgs e)
         {
             if (isClose)
@@ -125,6 +114,24 @@ namespace DXQLMT
         private void gridControl_centrer_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void menu_logout_Click(object sender, EventArgs e)
+        {
+            DialogResult kq = MessageBox.Show("Bạn có muốn đăng xuất?", "Thông báo!", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+            if (kq == DialogResult.Yes)
+            {
+                isClose = false;
+                FLogin frm = new FLogin();
+                this.Close();
+                frm.ShowDialog();
+            }
+        }
+
+        private void accordionControlElement1_Click(object sender, EventArgs e)
+        {
+            Faccount frm = new Faccount();
+            frm.ShowDialog();
         }
     }
 }

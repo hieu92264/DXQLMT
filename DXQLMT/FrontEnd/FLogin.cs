@@ -47,9 +47,11 @@ namespace DXQLMT.FrontEnd
 
         private void txt_Id_KeyPress(object sender, KeyPressEventArgs e)
         {
-            if (char.IsDigit(e.KeyChar) && char.IsControl(e.KeyChar))
+            if (!char.IsControl(e.KeyChar) && !char.IsDigit(e.KeyChar))
             {
-                e.Handled = false;
+                // Nếu không phải là số, hãy ngăn ngừa người dùng nhập
+                e.Handled = true;
+                MessageBox.Show("Nhập sai kiểu dữ liệu Id!");
             }
         }
         public void formshow()

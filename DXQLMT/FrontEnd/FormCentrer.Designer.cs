@@ -49,8 +49,6 @@
             this.menu_update_products = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.menu_Bill = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.menu_create_bill = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.menu_update_bill = new DevExpress.XtraBars.Navigation.AccordionControlElement();
-            this.menu_view_bill = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.menu_Thongke = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.accordionControlElement1 = new DevExpress.XtraBars.Navigation.AccordionControlElement();
             this.menu_logout = new DevExpress.XtraBars.Navigation.AccordionControlElement();
@@ -228,9 +226,8 @@
             // 
             this.menu_Bill.Elements.AddRange(new DevExpress.XtraBars.Navigation.AccordionControlElement[] {
             this.menu_create_bill,
-            this.menu_update_bill,
-            this.menu_view_bill,
             this.menu_Thongke});
+            this.menu_Bill.Expanded = true;
             this.menu_Bill.ImageOptions.Image = global::DXQLMT.Properties.Resources.Icons8_Windows_8_Ecommerce_Bill_24;
             this.menu_Bill.Name = "menu_Bill";
             this.menu_Bill.Text = "Bill";
@@ -241,20 +238,7 @@
             this.menu_create_bill.Name = "menu_create_bill";
             this.menu_create_bill.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
             this.menu_create_bill.Text = "Tạo hoá đơn";
-            // 
-            // menu_update_bill
-            // 
-            this.menu_update_bill.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menu_update_bill.ImageOptions.Image")));
-            this.menu_update_bill.Name = "menu_update_bill";
-            this.menu_update_bill.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.menu_update_bill.Text = "Chỉnh sửa hoá đơn";
-            // 
-            // menu_view_bill
-            // 
-            this.menu_view_bill.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("menu_view_bill.ImageOptions.Image")));
-            this.menu_view_bill.Name = "menu_view_bill";
-            this.menu_view_bill.Style = DevExpress.XtraBars.Navigation.ElementStyle.Item;
-            this.menu_view_bill.Text = "Xem thông tin hoá đơn";
+            this.menu_create_bill.Click += new System.EventHandler(this.menu_create_bill_Click);
             // 
             // menu_Thongke
             // 
@@ -336,8 +320,6 @@
         private DevExpress.XtraBars.Navigation.AccordionControlElement menu_update_products;
         private DevExpress.XtraBars.Navigation.AccordionControlElement menu_Bill;
         private DevExpress.XtraBars.Navigation.AccordionControlElement menu_create_bill;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement menu_update_bill;
-        private DevExpress.XtraBars.Navigation.AccordionControlElement menu_view_bill;
         private DevExpress.XtraBars.Navigation.AccordionControlElement menu_Thongke;
         private DevExpress.XtraBars.Navigation.AccordionControlElement Item_Latidue;
         private DevExpress.XtraBars.Navigation.AccordionControlElement Item_Vostro;

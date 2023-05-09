@@ -19,7 +19,7 @@ namespace DXQLMT.BackEnd
             get => instance ?? (instance = new DataProvide()); 
             private set => instance = value; 
         }
-        private string stringconnection = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\pngan\\source\\repos\\DXQLMT\\DXQLMT\\DataProvide.mdf;Integrated Security=True";
+        private string stringconnection = "Data Source=(LocalDB)\\MSSQLLocalDB;AttachDbFilename=C:\\Users\\Admin\\source\\repos\\DXQLMT\\DXQLMT\\DataProvide.mdf;Integrated Security=True";
         public void ExecuteNonQuery(string query, object[] parameter = null)
         {
             SqlConnection connection = new SqlConnection(stringconnection);
@@ -41,7 +41,7 @@ namespace DXQLMT.BackEnd
                     }
                 }
                 command.ExecuteNonQuery();
-                MessageBox.Show("Thay đổi dữ liệu thành công!");
+                //MessageBox.Show("Thay đổi dữ liệu thành công!");
                 connection.Close();
             }
             catch (Exception ex)

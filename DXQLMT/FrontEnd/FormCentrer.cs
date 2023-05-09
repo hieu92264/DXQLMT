@@ -5,6 +5,7 @@ using DevExpress.XtraEditors.Repository;
 using DXQLMT.BackEnd;
 using DXQLMT.FrontEnd;
 using DXQLMT.FrontEnd.Form_Account;
+using DXQLMT.FrontEnd.Form_Bill;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -132,6 +133,12 @@ namespace DXQLMT
         {
             Faccount frm = new Faccount();
             frm.ShowDialog();
+        }
+
+        private void menu_create_bill_Click(object sender, EventArgs e)
+        {
+            TaoHoaDon frm = new TaoHoaDon();
+            frm.Show();
         }
     }
 }

@@ -103,6 +103,16 @@ namespace DXQLMT.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Custom_Icon_Design_Pretty_Office_7_Save_32 {
+            get {
+                object obj = ResourceManager.GetObject("Custom-Icon-Design-Pretty-Office-7-Save.32", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Dakirby309_Windows_8_Metro_Web_Acer_Metro_24 {
             get {
                 object obj = ResourceManager.GetObject("Dakirby309-Windows-8-Metro-Web-Acer-Metro.24", resourceCulture);

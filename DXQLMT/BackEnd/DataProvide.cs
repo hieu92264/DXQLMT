@@ -13,7 +13,7 @@ namespace DXQLMT.BackEnd
     public class DataProvide
     {
         private DataProvide() { }
-        private static DataProvide instance;
+        private static DataProvide instance; //ctrl + R + E
 
         public static DataProvide Instance { 
             get => instance ?? (instance = new DataProvide()); 
